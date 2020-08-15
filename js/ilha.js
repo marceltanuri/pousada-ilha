@@ -39,10 +39,10 @@ $( document ).ready(function() {
 
 
 function mudaFraseTopo(){
-	if($("#frase-topo").attr('src')=="_img/frase-praia.png"){
+	if($("#frase-topo").attr('src')=="img/frase-praia.png"){
 
 		$('#frase-topo').fadeOut(400, function(){
-		    $(this).attr('src','_img/frase-ar.png').bind('onreadystatechange load', function(){
+		    $(this).attr('src','img/frase-ar.png').bind('onreadystatechange load', function(){
 		        if (this.complete) $(this).fadeIn(400);
 	      	});
 		});
@@ -51,7 +51,7 @@ function mudaFraseTopo(){
 
 
 		$('#frase-topo').fadeOut(400, function(){
-		    $(this).attr('src','_img/frase-praia.png').bind('onreadystatechange load', function(){
+		    $(this).attr('src','img/frase-praia.png').bind('onreadystatechange load', function(){
 		        if (this.complete) $(this).fadeIn(400);
 	      	});
 		});
@@ -59,10 +59,10 @@ function mudaFraseTopo(){
 
 	}
 
-	if($("#frase-topo2").attr('src')=="_img/frase-praia2.png"){
+	if($("#frase-topo2").attr('src')=="img/frase-praia2.png"){
 
 		$('#frase-topo2').fadeOut(400, function(){
-		    $(this).attr('src','_img/frase-ar2.png').bind('onreadystatechange load', function(){
+		    $(this).attr('src','img/frase-ar2.png').bind('onreadystatechange load', function(){
 		        if (this.complete) $(this).fadeIn(400);
 	      	});
 		});
@@ -71,7 +71,7 @@ function mudaFraseTopo(){
 
 
 		$('#frase-topo2').fadeOut(400, function(){
-		    $(this).attr('src','_img/frase-praia2.png').bind('onreadystatechange load', function(){
+		    $(this).attr('src','img/frase-praia2.png').bind('onreadystatechange load', function(){
 		        if (this.complete) $(this).fadeIn(400);
 	      	});
 		});

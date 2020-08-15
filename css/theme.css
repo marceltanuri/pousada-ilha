@@ -22,11 +22,11 @@ body {
 /* Edited by Alan */
 
 body{
-	background: #544948 url(../_img/bg-pagina.jpg) 50% 0 fixed no-repeat;
+	background: #544948 url(../img/bg-pagina.jpg) 50% 0 fixed no-repeat;
 }
 
 #topo-logo{
-	background: url("../_img/bg-logo-topo.png");
+	background: url("../img/bg-logo-topo.png");
 	height: 136px;
 	border-bottom: 2px solid #1e2129;
 }
@@ -90,7 +90,7 @@ padding: 15px 15px;
 	}
 
 	.navbar-inverse{
-		background: url("../_img/bg-menu.png");
+		background: url("../img/bg-menu.png");
 		top:-1px;
 	}
 
